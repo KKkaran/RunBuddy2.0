@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black; /*   This is a css comment!!  */
-  color: burlywood;
+  /*   This is a css comment!!  */
   font-family: sans-serif;
 }
 header h1 {
@@ -58,4 +57,7 @@ footer div {
 
 footer a {
   color: #024e76;
+}
+section {
+  color: #34b2b2;
 }
