@@ -118,16 +118,17 @@ footer a {
 .btn:active {
   background-color: green;
 }
-.intro {
-  text-align: center;
-}
-.intro h2 {
+/*for what we do section*/
+.section-title {
   font-size: 55px;
   color: #024e76;
   margin-bottom: 35px;
   padding: 0 100px 20px 100px;
-  border-bottom: 5px solid #fce138;
   display: inline-block;
+  border-bottom: 3px solid;
+}
+.intro {
+  text-align: center;
 }
 
 .intro p {
@@ -135,4 +136,35 @@ footer a {
   font-size: 20px;
   width: 80%;
   margin: 0 auto;
+}
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/*for what you do section*/
+.steps {
+  text-align: center;
+  background-color: #fce138;
+}
+.steps div {
+  color: red;
+  margin-bottom: 80px;
+}
+.steps img {
+  width: 15%;
+}
+.steps h3 {
+  margin-top: 10px;
+  color: #024e76;
+  font-size: 46px;
+}
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+.steps span {
+  font-size: 38px;
 }
