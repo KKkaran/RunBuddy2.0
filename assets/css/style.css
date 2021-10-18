@@ -12,7 +12,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 header a {
   color: #fce138;
@@ -22,9 +21,11 @@ header a {
 header {
   background-color: #34b2b2;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 header nav {
-  float: right;
   margin: 7px 0px;
 }
 header nav ul li {
