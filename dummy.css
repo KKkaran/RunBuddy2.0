@@ -1,0 +1,60 @@
+body {
+  background: black;
+  color: azure;
+  margin: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gold;
+  min-height: 100vh;
+  font-size: 20px;
+  justify-content: center;
+}
+.main div {
+  color: gainsboro;
+  text-align: center;
+  font-size: 12px;
+  flex: 1;
+  max-height: 60px;
+}
+.first {
+  background: darkblue;
+  font-size: 10px;
+}
+.second {
+  background: darkgreen;
+  order: 2;
+}
+.third {
+  background: fuchsia;
+}
+.th4 {
+  background: blueviolet;
+}
+.th5 {
+  background: rgb(235, 24, 24);
+}
+.th6 {
+  background: rgb(63, 59, 66);
+}
+.th7 {
+  background: rgb(172, 164, 179);
+}
+.th8 {
+  background: rgb(221, 126, 17);
+}
+.th9 {
+  background: rgb(6, 184, 44);
+}
+
+/* @media screen and (max-width: 575px) {
+  .first,
+  .second,
+  .third {
+    flex: 1 50%;
+    text-align: right;
+    color: silver;
+  }
+}
+ */
